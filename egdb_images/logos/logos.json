@@ -1,0 +1,29 @@
+{
+  "logos":
+    [
+      { "image":"ihsm_logo.png",
+        "link":"https://www.ihsm.uma-csic.es/",
+        "height":"75"
+      },
+      { "image":"csic_logo.png",
+        "link":"https://www.csic.es/en",
+        "height":"70"
+      },
+      { "image":"UMA_logo.png",
+        "link":"https://www.uma.es/",
+        "height":"70"
+      },
+      { "image":"UQ_logo.png",
+        "link":"https://qaafi.uq.edu.au/",
+        "height":"70"
+      },
+      { "image":"QAAFI_logo.png",
+        "link":"https://qaafi.uq.edu.au/",
+        "height":"70"
+      },
+      { "image":"UC_Riverside_logo.png",
+        "link":"https://www.ucr.edu/",
+        "height":"70"
+      }
+    ]
+}
