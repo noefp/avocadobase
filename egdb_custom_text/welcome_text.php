@@ -1,4 +1,3 @@
-<!-- <h1>Welcome to <?php// echo "$dbTitle";?> </h1> -->
 <h1>Welcome to AvocadoBase</h1>
 <h4 class="p_font18">
   This site is dedicated to mango genomics, and provides multiple bioinformatics tools to explore and download omics data related to <i>Mangifera indica</i>.
