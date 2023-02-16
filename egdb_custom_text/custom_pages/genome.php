@@ -24,17 +24,17 @@
            <tr>
              <td>Number of sequences</td>
              <td class="text-right">12</td>
-             <td class="text-right">250</td>
+             <td class="text-right">12</td>
            </tr>
            <tr>
              <td>Assembly size (Mb)</td>
              <td class="text-right">873.91</td>
-             <td class="text-right">391.96</td>
+             <td class="text-right">703</td>
            </tr>
            <tr>
              <td>Longest sequence (Mb)</td>
              <td class="text-right">103.19</td>
-             <td class="text-right">29.46</td>
+             <td class="text-right">17.08</td>
            </tr>
            <tr>
              <td>Average length (Mb)</td>
@@ -44,12 +44,12 @@
            <tr>
              <td>N50 length (Mb)</td>
              <td class="text-right">26</td>
-             <td class="text-right">-</td>
+             <td class="text-right">61.89</td>
            </tr>
            <tr>
              <td>N50 index (sequences)</td>
              <td class="text-right">-</td>
-             <td class="text-right">-</td>
+             <td class="text-right">5</td>
            </tr>
          </tbody>
        </table>
