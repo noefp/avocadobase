@@ -24,6 +24,14 @@
       { "image":"UC_Riverside_logo.png",
         "link":"https://www.ucr.edu/",
         "height":"70"
+      },
+      { "image":"UCdavis_logo.png",
+        "link":"https://www.ucr.edu/",
+        "height":"45"
+      },
+      { "image":"usda.png",
+        "link":"https://www.ucr.edu/",
+        "height":"70"
       }
     ]
 }
