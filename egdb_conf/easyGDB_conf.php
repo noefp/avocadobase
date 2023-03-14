@@ -14,9 +14,9 @@ $lab_path = "$root_path/$egdb_files_folder/egdb_labs";
 $annotation_links_path = "$root_path/$egdb_files_folder/annotations";
 
 // header
-$dbTitle = "AvocadoBase";
+$dbTitle = "AvoBase";
 $header_img = "header1.jpg";
-$db_logo = "avocadobase_logo.png";
+$db_logo = "avobase_logo.png";
 
 // Toolbar
 $tb_about = 0;
@@ -29,8 +29,9 @@ $tb_blast = 1;
 $tb_jbrowse = 1;
 $tb_seq_ext = 1;
 $tb_annot_ext = 1;
-$tb_gene_expr = 1;
-$tb_lookup = 0;
+$tb_gene_expr = 0;
+$tb_lookup = 1;
+$tb_enrichment = 1;
 $tb_more = 0;
 $tb_custom = 1;
 
@@ -44,7 +45,11 @@ $ab_labs = 0;
 
 //Gene examples
 $gene_sample = "";
-$input_gene_list="";
+$input_gene_list="mRNA1
+mRNA2
+mRNA3
+mRNA4
+mRNA5";
 
 // Tools
 $max_lookup_input = 10000;
