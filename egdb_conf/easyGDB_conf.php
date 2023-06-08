@@ -45,11 +45,11 @@ $ab_labs = 0;
 
 //Gene examples
 $gene_sample = "";
-$input_gene_list="mRNA1
-mRNA2
-mRNA3
-mRNA4
-mRNA5";
+$input_gene_list="PaHa01g00010.1
+PaHa01g00020.1
+PaHa01g00030.1
+PaHa01g00040.1
+PaHa01g00050.1";
 
 // Tools
 $max_lookup_input = 10000;
