@@ -7,7 +7,7 @@
       <p>
 				<ul>
 					<li>cv. Hass, by <a href="https://doi.org/10.1093/hr/uhac157" target="_blank">Nath et al. 2022</a></li>
-					<li>cv. Gwen, by <a href="https://doi.org/10.1186/s13059-020-01959-8" target="_blank">Solares et al. 2023</a></li>
+					<li>cv. Gwen, by <a href="https://doi.org/10.1093/g3journal/jkac323" target="_blank">Solares et al. 2023</a></li>
 				</ul>
       </p>
       
