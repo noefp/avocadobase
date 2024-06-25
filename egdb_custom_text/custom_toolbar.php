@@ -1,3 +1,4 @@
+<li class="nav-item"><a class="nav-link" href="/easy_gdb/custom_view.php?file_name=synteny_viewer.php">Synteny Viewer</a></li>
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Gene expression</a>
   <div class="dropdown-menu">
