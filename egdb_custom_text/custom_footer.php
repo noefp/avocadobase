@@ -9,7 +9,4 @@
     echo "<a href='".$logo["link"]."' target='_blank'><img class='m-2' height='".$logo["height"]."' src='".$images_path."/logos/".$logo["image"]."'></a>";
   }
 ?>
-<br>
-<p style="display:inline; margin-bottom:0px">
-  Write your own text here.
-</p>
+
