@@ -1,0 +1,28 @@
+{
+  "01_Hass_mesocarp_development.txt":
+    {
+      "annotation_file":"Avocado/Avocado_Hass_UQ_v1_Annotations.txt",
+      "description":"01_hass_mesocarp.php",
+      "images":
+        {
+          "mesocarp_150DAFS":"avocado.jpg",
+          "mesocarp_240DAFS":"avocado.jpg",
+          "mesocarp_300DAFS":"avocado.jpg",
+          "mesocarp_390DAFS":"avocado.jpg"
+        }
+    },
+  "02_Hass_Fusarium_infection.txt":
+    {
+      "annotation_file":"Avocado/Avocado_Hass_UQ_v1_Annotations.txt",
+      "description":"02_fusarium_infection.php",
+      "images":
+        {
+          "control_1dpi":"control_1dpi.jpeg",
+          "control_7dpi":"control_7dpi.jpeg",
+          "control_14dpi":"control_14dpi.jpeg",
+          "infected_1dpi":"infected_1dpi.jpeg",
+          "infected_7dpi":"infected_7dpi.jpeg",
+          "infected_14dpi":"infected_14dpi.jpeg"
+        }
+    }
+}

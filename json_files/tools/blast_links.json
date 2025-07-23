@@ -1,0 +1,8 @@
+{
+  "Avocado_Hass_genome_HiFiAsm_Gr80.fasta":"/jbrowse/?data=data%2Fhass_uq&loc={chr}%3A{start}..{end}",
+  "Avocado_Hass_proteins.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Hass_UQ_v1_Annotations.txt",
+  "Avocado_Hass_mRNA.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Hass_UQ_v1_Annotations.txt",
+  "Avocado_Gwen_genome_scf20kNs.fasta":"/jbrowse/?data=data%2Fgwen_ucr&loc={chr}%3A{start}..{end}",
+  "Avocado_Gwen_proteins_all_isoforms.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Gwen_v1_Annotations.txt",
+  "Avocado_Gwen_CDS_all_isoforms.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Gwen_v1_Annotations.txt"
+}
