@@ -10,10 +10,11 @@
     <a class="dropdown-item" href="/easy_gdb/tools/annot_input_list.php">Annotation Extraction</a>
     <a class="dropdown-item" href="/easy_gdb/tools/gene_lookup.php">Gene Version Lookup</a>
     <a class="dropdown-item" href="/easy_gdb/tools/gene_enrichment.php">Gene Set Enrichment</a>
+    <a class="dropdown-item" href="/easy_gdb/custom_view.php?file_name=synteny_viewer.php">Synteny Viewer</a>
+    <!-- <a class="dropdown-item" href="/easy_gdb/tools/variety_id/identify_variety.php">Avocado Variety Identifier</a> -->
   </div>
 </li>
 
-<li class="nav-item"><a class="nav-link" href="/easy_gdb/custom_view.php?file_name=synteny_viewer.php">Synteny Viewer</a></li>
 
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Gene expression</a>
@@ -24,15 +25,31 @@
   </div>
 </li>
 
-<li class="nav-item"><a class="nav-link" href="/easy_gdb/downloads.php">Downloads</a></li>
 <li class="nav-item"><a class="nav-link" href="/easy_gdb/custom_view.php?file_name=genome.php">Genomes</a></li>
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Germplasm</a>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="https://ihsmsubtropicals.uma.es/easy_gdb/tools/passport/02_pass_file_to_datatable.php?dir_name=avocado" target="_blank" >IHSM Germplasm <i class="fas fa-external-link-alt"></i> </a>
+    <a class="dropdown-item" href="https://avocado.ucr.edu/avocado-variety-database" target="_blank" >UC Riverside Germplasm collection <i class="fas fa-external-link-alt"></i> </a>
+    <a class="dropdown-item" href="https://office.fruttmac.com/wiki/index.php?title=Persea_(Aguacate)" target="_blank" >FRUTTMAC Germplasm collection <i class="fas fa-external-link-alt"></i> </a>
+    <!-- <a class="dropdown-item" href="/easy_gdb/tools/expression/expression_input_private.php">Private Expression Atlas</a> -->
+  </div>
+</li>
+
+<!-- <li class="nav-item"><a class="nav-link" href="/easy_gdb/species.php">Pathogens</a></li> -->
+
+<li class="nav-item"><a class="nav-link" href="/easy_gdb/downloads.php">Downloads</a></li>
 
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">More</a>
   <div class="dropdown-menu">
+    <a class="dropdown-item" href="/easy_gdb/about.php">About</a>
     <a class="dropdown-item" href="/easy_gdb/custom_view.php?file_name=links.php">Links & Documents</a>
   </div>
 </li>
+
+
 
 <style>
 .navbar {
