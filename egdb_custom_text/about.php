@@ -1,29 +1,41 @@
-<div class="width900">
-  <br>
-<h1>About</h1>
+<div class="container my-5" style="max-width: 1000px; margin: 0 auto;">
+  
+  <div class="text-center mb-5">
+    <h1 class="display-5 font-weight-bold" style="color: #2c5e3b; font-size: 32px;">About AvoBase</h1>
+    <div style="width: 60px; height: 4px; background-color: #2c5e3b; margin: 15px auto 25px auto; border-radius: 2px;"></div>
+    
+    <p class="p_font18 text-muted mx-auto" style="max-width: 850px; line-height: 1.6;">
+      AvoBase is a comprehensive platform dedicated avocado genomics. The database curates high-quality chromosome-level reference assemblies for the primary available avocado genomes: "Hass", "Gwen", and "West Indian".
+    </p>
+  </div>
 
-<br>
-<p class="p_font18">
-	AvocadoBase is a resource for avocado genomics. The site currently contains the reference genome for avocados "Hass" and "Gwen".
-</p>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipiscing elit mus nisi vel risus semper sagittis vitae, 
-  luctus platea quisque cum nascetur sem ligula leo magnis cursus cubilia pulvinar. 
-  Habitasse praesent platea nunc pharetra laoreet etiam congue proin, nostra vehicula nec quis iaculis molestie integer diam viverra, 
-  primis nullam gravida massa tempor curae metus. Vitae vivamus nascetur eros mus viverra nostra fames sagittis faucibus donec, 
-  cubilia interdum volutpat augue nisl libero fermentum proin quisque, mollis erat facilisi posuere rutrum luctus quis imperdiet pretium.
-</p>
-<p>
-  Please, <a id="contact_link" onclick="contt()"> <i class="fa fa-envelope" style="font-size:24px;color:#007bff"></i> Contact us</a>
-	if you have any question or request.
-</p>
+  <div class="row justify-content-center mb-5">
+    <div class="col-12 col-md-10 text-justify text-muted p_font16" style="line-height: 1.7;">
+      <p>
+        Our mission is to empower the global plant scientific community, plant breeders, and agricultural researchers by streamlining access to multidimensional multi-omic datasets. AvoBase offers interactive tools including genome browsers, synteny viewers, and transcriptomic analysis tools.
+      </p>
+    </div>
+  </div>
 
-  <br>
-  <?php 
-    if ( file_exists(realpath("$custom_text_path/db_citation.php")) && filesize(realpath("$custom_text_path/db_citation.php")) >0) {
-      include_once realpath("$custom_text_path/db_citation.php");
-    }
-  ?>
+  <div class="mb-5">
+    <?php 
+      if ( file_exists(realpath("$custom_text_path/db_citation.php")) && filesize(realpath("$custom_text_path/db_citation.php")) >0) {
+        include_once realpath("$custom_text_path/db_citation.php");
+      }
+    ?>
+  </div>
+
+  <hr class="my-5" style="border-top: 1px solid #e2e8f0;">
+
+  <div class="text-center bg-light p-5 rounded shadow-sm border" style="border-left: 5px solid #2c5e3b !important;">
+    <h3 class="h4 font-weight-bold mb-3" style="color: #1a1a1a;">Have questions or requests?</h3>
+    <p class="text-muted mx-auto mb-4" style="max-width: 600px;">
+      If you have any inquiries regarding data integration, collaboration opportunities, or feature requests, feel free to reach out to our team.
+    </p>
+    <button id="contact_link" onclick="contt()" class="btn btn-primary px-4 font-weight-bold shadow-sm" style="background-color: #2c5e3b; border-color: #2c5e3b; border-radius: 20px;">
+      <i class="fa fa-envelope mr-2"></i> Contact Us
+    </button>
+  </div>
 
 </div>
 
@@ -32,13 +44,18 @@
       var addr = "e_fernandez_pozo" + '>' + "csic_es";
       addr = addr.replace(/_/g, ".");
       addr = addr.replace(">", "@");
-      //alert("addr: no"+addr);
-      window.location.href='mailto:no'+addr+'?subject=MangoBase contact';
+      window.location.href='mailto:no'+addr+'?subject=AvoBase contact';
   }
 </script>
+
 <style>
-  #contact_link {
-    color: #007bff;
-    cursor: pointer;
+  .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  }
+  #contact_link:hover {
+    background-color: #1e4229 !important;
+    border-color: #1e4229 !important;
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
   }
 </style>
