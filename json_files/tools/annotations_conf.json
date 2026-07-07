@@ -1,14 +1,26 @@
 {
+  "Avocado_Hass_UQ_v1.txt": {
+    "displayed_name":"Avocado Hass UQ v1",
+    "description":"",
+    "jbrowse":"/jbrowse/?data=data%2Fhass_uq&loc={gene_name}&tracks=DNA%2Chass_uq_gene_models",
+    "gene_blast_dbs": ["Avocado_Hass_proteins.fasta","Avocado_Hass_mRNA.fasta"]
+  },
+  "Avocado_Gwen_v1.txt": {
+    "displayed_name":"Avocado Gwen v1",
+    "description":"",
+    "jbrowse":"/jbrowse/?data=data%2Fgwen_ucr&loc={gene_name}&tracks=DNA%2Cgwen_gene_models",
+    "gene_blast_dbs": ["Avocado_Gwen_proteins_all_isoforms.fasta","Avocado_Gwen_CDS_all_isoforms.fasta"]
+  },
+  "Avocado_West_Indian_T2T.txt": {
+    "displayed_name":"Avocado West Indian T2T",
+    "description":"",
+    "jbrowse":"/jbrowse/?data=data%2FWI_T2T&loc={gene_name}&tracks=DNA%2CWI_Genes",
+    "gene_blast_dbs": ["Avocado_WI_T2T_protein.fasta","Avocado_WI_T2T_CDS.fasta"]
+  },
   "Neofusicoccum_luteum.txt": {
     "displayed_name":"<i>Neofusicoccum luteum</i>",
     "description":"",
     "jbrowse":"https://ihsm-bionas.uma.es/jbrowse/?data=data%2FNL&loc={gene_name}&tracks=DNA%2Cneofusicoccum_luteum",
     "gene_blast_dbs": ["Neofusicoccum_luteum_Protein.fasta","Neofusicoccum_luteum_CDS.fasta"]
-  },
-  "Avocado_West_Indian_T2T.txt": {
-    "displayed_name":"Avocado West Indian T2T",
-    "description":"",
-    "jbrowse":"http://localhost/jbrowse/?data=data%2FWI_T2T&loc={gene_name}&tracks=DNA%2CWI_Genes",
-    "gene_blast_dbs": ["Avocado_WI_T2T_protein.fasta","Avocado_WI_T2T_CDS.fasta"]
   }
 }
