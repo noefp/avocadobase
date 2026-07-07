@@ -4,5 +4,8 @@
   "Avocado_Hass_mRNA.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Hass_UQ_v1_Annotations.txt",
   "Avocado_Gwen_genome_scf20kNs.fasta":"/jbrowse/?data=data%2Fgwen_ucr&loc={chr}%3A{start}..{end}",
   "Avocado_Gwen_proteins_all_isoforms.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Gwen_v1_Annotations.txt",
-  "Avocado_Gwen_CDS_all_isoforms.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Gwen_v1_Annotations.txt"
+  "Avocado_Gwen_CDS_all_isoforms.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_Gwen_v1_Annotations.txt",
+  "Avocado_WI_T2T_Genomic.fasta":"/jbrowse/?data=data%2FWI_T2T&loc={chr}%3A{start}..{end}&tracks=DNA%2CWI_Genes",
+  "Avocado_WI_T2T_protein.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_West_Indian_T2T.txt",
+  "Avocado_WI_T2T_CDS.fasta":"/easy_gdb/gene.php?name={subject}&annot=Avocado/Avocado_West_Indian_T2T.txt"
 }
