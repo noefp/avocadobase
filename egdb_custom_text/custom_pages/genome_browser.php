@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-end mb-4">
+<div class="d-flex justify-content-end mb-4" style="margin-top: 15px;">
   <a class="btn btn-sm btn-outline-secondary px-3" href="https://jbrowse.org/jb2/docs/user_guide/" target="_blank" rel="noopener" style="border-radius: 20px;">
     <i class="fa fa-info-circle mr-1" style="color: #2c5e3b;"></i> JBrowse Help
   </a>
@@ -31,10 +31,10 @@
             </div>
             <h3 class="h5 font-weight-bold mb-2 text-dark">cv. Hass</h3>
             <p class="card-text text-muted small px-1 mb-4 flex-grow-1">
-              Haplotype-resolved chromosomal level genome view.
+              Haplotype-resolved chromosomal level genome view. Includes Colombian National Genebank GBS data.
             </p>
             <div class="mt-auto">
-              <a href="/jbrowse/?data=data%2Fhass_uq&loc=1%3A39116607..58677701&tracks=DNA%2Chass_uq_gene_models" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary btn-block stretched-link jbrowse_link" style="border-radius: 20px;">
+              <a href="https://ihsm-bionas.uma.es/jbrowse/?data=data%2Fhass_uq&loc=1%3A1..97805473&tracks=DNA%2Chass_uq_gene_models" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary btn-block stretched-link jbrowse_link" style="border-radius: 20px;">
                 Open JBrowse <i class="fas fa-chevron-right ml-1" style="font-size: 0.7rem;"></i>
               </a>
             </div>
@@ -53,7 +53,7 @@
               Chromosomal level genome view.
             </p>
             <div class="mt-auto">
-              <a href="/jbrowse/?data=data%2Fgwen_ucr&loc=Chr1%3A29249845..43875871&tracks=DNA%2Cgwen_gene_models" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary btn-block stretched-link jbrowse_link" style="border-radius: 20px;">
+              <a href="https://ihsm-bionas.uma.es/jbrowse/?data=data%2Fgwen_ucr&loc=Chr1%3A29249845..43875871&tracks=DNA%2Cgwen_gene_models" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary btn-block stretched-link jbrowse_link" style="border-radius: 20px;">
                 Open JBrowse <i class="fas fa-chevron-right ml-1" style="font-size: 0.7rem;"></i>
               </a>
             </div>
@@ -72,7 +72,7 @@
               Telomere-to-telomere gap-free genome view.
             </p>
             <div class="mt-auto">
-              <a href="/jbrowse/?data=data%2FWI_T2T&loc=Pa01%3A38534315..57802083&tracks=DNA%2CWI_Genes" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary btn-block stretched-link jbrowse_link" style="border-radius: 20px;">
+              <a href="https://ihsm-bionas.uma.es/jbrowse/?data=data%252FWI_T2T&loc=Pa01%253A1..96338841&tracks=DNA%252CWI_Genes" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary btn-block stretched-link jbrowse_link" style="border-radius: 20px;">
                 Open JBrowse <i class="fas fa-chevron-right ml-1" style="font-size: 0.7rem;"></i>
               </a>
             </div>
